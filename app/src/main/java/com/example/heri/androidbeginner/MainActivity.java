@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void topClickDua(View view)
     {
+        Intent aktivity = new Intent(this, ListActivity.class);
+        startActivity(aktivity);
         Toast.makeText(this,"The user click", Toast.LENGTH_SHORT).show();
     }
 }
