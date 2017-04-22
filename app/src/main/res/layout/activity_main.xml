@@ -26,5 +26,12 @@
         android:layout_below="@+id/btn"
         android:onClick="topClickDua"
         android:text="Button 2"/>
+    <Button
+        android:id="@+id/btntiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2"
+        android:onClick="topClicktiga"
+        android:text="Button 2"/>
 
 </RelativeLayout>

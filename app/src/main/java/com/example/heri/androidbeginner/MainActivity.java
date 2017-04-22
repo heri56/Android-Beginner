@@ -30,4 +30,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(aktivity);
         Toast.makeText(this,"The user click", Toast.LENGTH_SHORT).show();
     }
+    public void topClicktiga(View view)
+    {
+        Intent aktivity = new Intent(this, MapsActivity.class);
+        startActivity(aktivity);
+        Toast.makeText(this,"The user click", Toast.LENGTH_SHORT).show();
+    }
 }
